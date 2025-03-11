@@ -31,7 +31,7 @@ git-clone-repo: ## Git clone repo
 	@echo "Clone has been finished! New repo: $(NEW_REPO_NAME)"
 	@echo "Don't forget to config user if needed!"
 
-git-clone-tf-module: ORIGIN_REPO=git@github.com:demmonico/terraform-modules-template.git
+git-clone-tf-module: ORIGIN_REPO=git@github.com:demmonico/terraform-app-template.git
 git-clone-tf-module: NEW_REPO=git@github.com:demmonico/$(NEW_REPO_NAME).git
 git-clone-tf-module: git-clone-repo ## Git clone Terraform module repo
 
