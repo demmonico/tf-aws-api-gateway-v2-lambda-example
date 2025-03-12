@@ -6,6 +6,10 @@
 
 Bootstraps a new Terraform app: AWS API Gateway v2 with Lambda in a downstream.
 
+## Usage
+
+Please, don't forget to change domain name to the real one in `apig.tf` file.
+
 ## Development
 
 Steps:
